@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Crusty Garlic Focaccia with Melted Cheese",
+        "price":105
+    },
+    {
+        "name":"French Fires",
+        "price":110
+
+    },
+    {
+        "name":"Home Country Fries with Herbs & Chilli Flakes",
+        "price":100
+
+    },
+    {
+        "name":"French Fries with Cheese & Jalapenos",
+        "price":135
+
+    }
+]

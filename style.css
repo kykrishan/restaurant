@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+}
+h1,p{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.container{
+    
+    display:flex;
+    height: 100%;
+    width: 100%;
+}
+input{
+    box-shadow: 1px 2px 4px black;
+    width: 62%;
+    height: 37px;
+}
+.tables div{
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 9px;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 12px;
+    background: antiquewhite;
+}
+/* .table div h3{
+display: inline-block;
+} */
+.items div{
+    cursor: grab;
+    width: 60%;
+    margin-top: 15px;
+    padding: 9px;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 12px;
+    background: antiquewhite;
+}
+.popTable{
+    overflow: auto;
+    height: 77%;
+    padding: 10px;
+}
+.table h3,.table span {
+    display: inline;
+}
+.tables{
+    margin-left: 30px;
+    width: 25%;
+    border-right: 2px solid black;
+    height: 100%;
+    
+}.menu{
+    height: 100%;
+    width: 75%;
+    margin-left: 30px;
+}
+th{
+    padding: 2px 18px;
+}
+.menu h1{
+    text-align: center;
+}
+.bill {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .inside{
+    color: white;
+    background: #bcbcbc;
+    height: 40%;
+    width: 50%;
+    position: relative;
+    top: 18%;
+    left: 30%;
+    border-radius: 24px;
+    height: 42%;
+    width: 57%;
+  }
+  .inside p{
+      display:inline-block;
+  }
+  .heading{
+    background: #88719d;
+    display: flex;
+    padding-left: 20px;
+    align-content: center;
+    justify-content: space-between;
+
+  }
+  .remov img{
+    height: 25px;
+    width: 23px;
+  }
+  body{
+      background: wheat;
+  }
+  .closeBtn{
+      height: 100%;
+      width: 30px;
+      font-size: 1.5rem;
+  }
+  input{
+    padding: 0 0.5rem;
+      border-radius: 8px;
+      padding-left: 8px;
+      color: black;
+    font-size: 1.3rem;
+    width: 95%;
+    background: papayawhip;
+    
+  }
+  input[type="number"]{
+    width: 30%;
+  }
+  .button1{
+border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 11px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+  }
+  th{
+      font-size: 1.2rem;
+  }
+  .added{
+      border-bottom: slateblue 2px;
+  }
+  .popTotal{
+      display: inline-block;
+  }
+  .popTotal h2{
+      display: inline-block;
+  }
+  .buttonRemove{
+      display: inline-block;
+      margin-left: 100px;
+  }

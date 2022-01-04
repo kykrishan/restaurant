@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tables">
+             <h1>Tables</h1>
+            <input type="search" name="tableSearch" id="tableSearch" placeholder="Search Table">   
+            
+            <div class="table 1" id="table1" onclick="billOpen()">
+                <h2>Table 1</h2>
+                <h3>Rs:</h3>
+                <span id="table1Total">0</span>
+                <p>Total-Items-</p>
+                <span id="table1Items">0</span>   
+            </div>
+            <div class="table 2" id="table2"  onclick="billOpen()" >
+                <h2>Table 2</h2>
+                <h3>Rs:</h3>
+                <span id="table2Total">0</span>
+                <p >Total-Items-</p>
+                <span id="table2Items">0</span>
+            </div>
+            <div class="table 3" id="table3" onclick="billOpen()" >
+                <h2>Table 3</h2>
+                <h3>Rs:</h3>
+                <span id="table3Total">0</span>
+                <p>Total-Items-</p>
+                <span id="table3Items">0</span>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menuTop">
+                <h1>Menu</h1>
+            <input type="search" name="menuSearch" id="menuSearch" placeholder="Search Menu By Course or by food">
+            </div>
+            
+            <div class="items">
+            </div>
+            
+        </div>
+    </div>
+    <div class="bill">
+        <div class="inside">
+            <div class="heading">
+                <div>
+                    <p class="inTable">table </p>
+               <p>| Order Details           </p>
+                </div>
+               
+               <div>
+                <button class="closeBtn" onclick="hidePop()">X</button>
+               </div>
+               
+            </div>
+            <div class="popTable">
+              <table>
+                    <tr class="tableHeading">
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Number</th>
+                        <th>Total</th>
+                    </tr>
+            </table>
+            <div class="popTotal">
+                <h2>Total:</h2>
+                <span class="totalSpan"></span>
+            </div>
+           
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="json/item.json"></script>
+<script src="script.js"></script>  
+<script src="script2.js"></script>  
+</body>
+</html>
